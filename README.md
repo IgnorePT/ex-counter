@@ -1,8 +1,15 @@
-# React + Vite
+# Exercicio React Counter - useState
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Resolve o seguinte problema com recurso ao useState
+Deves criar um estado que armazene um valor dinamico e execute as seguintes acções:
 
-Currently, two official plugins are available:
+- O primeiro botão deve incrementar o contador em 1.
+- O segundo botão deve incrementar o contador em 10.
+- O terceiro botão deve reiniciar o contador (0).
+- O quarto botão deve modificar o contador para um valor\* aleatorio entre 1 e 1000. (Math.random())
+- O quinto botão deve subtrair o contador em 10.
+- O sexto botão deve subtrair o contador em 1.\
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Ficheiro a trabalhar:**
+
+- Counter.jsx
