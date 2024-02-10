@@ -1,0 +1,45 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 32px;
+	padding: 32px;
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0.3px 0.5px 0.7px #af3e4d / 0.34,
+		1.5px 2.9px 3.7px -0.4px #af3e4d / 0.34,
+		2.7px 5.4px 6.8px -0.7px #af3e4d / 0.34,
+		4.5px 8.9px 11.2px -1.1px #af3e4d / 0.34,
+		7.1px 14.3px 18px -1.4px #af3e4d / 0.34,
+		11.2px 22.3px 28.1px -1.8px #af3e4d / 0.34,
+		17px 33.9px 42.7px -2.1px #af3e4d / 0.34,
+		25px 50px 62.9px -2.5px #af3e4d / 0.34;
+}
+.text {
+	font-size: 0.875rem;
+	color: #4d4d4d;
+	text-align: center;
+}
+.text span {
+	display: block;
+}
+.count {
+	margin-top: -0.2em;
+	font-size: 4rem;
+	font-weight: bold;
+	color: #a97c73;
+}
+.button_row {
+	display: flex;
+	gap: 8px;
+}
+.button_row button {
+	display: grid;
+	place-content: center;
+	width: 48px;
+	height: 48px;
+}
+.btn svg {
+	display: block;
+}
